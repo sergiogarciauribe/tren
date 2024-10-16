@@ -5,7 +5,8 @@ from pasajero import Pasajero
 class Tren:
     def __init__(self, num_vagones):
         self.num_vagones = num_vagones
-        self.sillas = {f"{vagon}-{silla:02}": None for vagon in range(1, num_vagones+1) for silla in range(1, 11)}
+        self.sillas = {f"{vagon}-{silla:02}": None 
+                       for vagon in range(1, num_vagones+1) for silla in range(1, 11)}
         self.paradas = 0
         self.subidas = 0
         self.bajadas = 0

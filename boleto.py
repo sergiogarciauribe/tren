@@ -1,5 +1,4 @@
 # boleto.py
-
 class Boleto:
     def __init__(self, vagon, silla, tipo):
         self.vagon = vagon
